@@ -1,17 +1,16 @@
-# Vibe Coding Frames Starter Kit
+# f(disperse)
 
-A minimal starter for building Farcaster frames with:
+disperse app with social graph support as an farcaster frame.
 
-- ⚡ Next.js 15 (App Router)
-- 🎨 Tailwind CSS + shadcn/ui components
-- 🔑 Privy + Wagmi for Wallet interactions
+# Features
+let's users distribute ether/tokens to multiple farcaster accounts at once from within a frame.
 
 ## Getting Started
 
 1. Clone repo
 
 ```bash
-git clone https://github.com/Siddesh7/vibe-coding-frames-starter.git
+git clone https://github.com/Siddesh7/f-disperse.git
 ```
 
 2. Install dependencies
@@ -26,6 +25,8 @@ pnpm install
 ```env
 NEXT_PUBLIC_PRIVY_APP_ID=
 NEXT_PUBLIC_URL=
+NEXT_PUBLIC_ALCHEMY_API_KEY=
+NEXT_PUBLIC_NEYNAR_API_KEY=
 ```
 
 4. Run dev server
